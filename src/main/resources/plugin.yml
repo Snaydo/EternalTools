@@ -1,0 +1,17 @@
+name: EternalTools
+main: fr.snaydo.eternaltools.Main
+version: 1.0
+api-version: 1.8
+commands:
+  eternaltools:
+    description: Commandes pour le plugin EternalTools
+    usage: /eternaltools <reload>
+    permission: eternaltools.reload
+  reload:
+    description: Recharge la configuration du plugin
+    usage: /reload
+    permission: eternaltools.reload
+  giveeternalitem:
+    description: Donne un item éternel au joueur spécifié
+    usage: /giveeternalitem <player> <id>
+    permission: eternaltools.give
